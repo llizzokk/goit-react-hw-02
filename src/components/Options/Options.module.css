@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 32px;
+}
+
+.option {
+  padding: 12px 24px;
+  border: 1px solid #2e2f42;
+
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #2e2f42;
+  color: #ad9898;
+  transition: all 250ms ease-in-out;
+}
+
+.option:hover {
+  background-color: #ad9898;
+  color: #2e2f42;
+}
