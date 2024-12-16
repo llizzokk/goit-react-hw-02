@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px 16px;
   margin-bottom: 32px;
 }
 
@@ -19,6 +21,7 @@
 }
 
 .option:hover {
-  background-color: #ad9898;
+  background-color: transparent;
   color: #2e2f42;
+  scale: 1.1;
 }
